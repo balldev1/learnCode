@@ -1,9 +1,8 @@
 "use client";
 
 import Image from "next/image";
-import { useState } from 'react';
 import Link from "next/link";
-import {LayoutCopybutton} from "@/app/components/layout-copybutton";
+import {ParamsCopybutton} from "@/app/nextjs/components/params-copybutton";
 const ParamsPage = () => {
 
     return (
@@ -13,13 +12,13 @@ const ParamsPage = () => {
             </div>
             <div className="w-[1200px] space-y-5">
                 <div className="flex flex-col">
-                    <span>LayOut = children:React.ReactNode</span>
+                    <span>get.parmas = axios = [id] = page</span>
                 </div>
                 {/* Copy Code */}
-                <LayoutCopybutton/>
+                <ParamsCopybutton/>
                 <div className="w-full h-[700px]  border-2 relative">
                     <Image
-                        src="/layout/layout1.png"
+                        src="/params/params1.png"
                         alt="layout1"
                         fill
                     />

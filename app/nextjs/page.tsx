@@ -42,6 +42,11 @@ const NextPage = () => {
                             Dynamic Routes Params
                         </Link>
                     </div>
+                    <div>
+                        <Link href="/nextjs/search" className="border-2 p-2 rounded-xl border-sky-500">
+                            Search
+                        </Link>
+                    </div>
                 </div>
             </div>
         </div>

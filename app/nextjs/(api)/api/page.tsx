@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { useState } from 'react';
 import Link from "next/link";
-import {ApiCopybutton} from "@/app/components/api-copybutton";
+import {ApiCopybutton} from "@/app/nextjs/components/api-copybutton";
 const PropsPage = () => {
 
 

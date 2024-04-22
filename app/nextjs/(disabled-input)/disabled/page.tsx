@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useState } from 'react';
 import Link from "next/link";
 import {PropsButton} from "@/app/nextjs/(props)/props/components/props-button";
-import {DisabledCopybutton} from "@/app/components/disabled-copybutton";
+import {DisabledCopybutton} from "@/app/nextjs/components/disabled-copybutton";
 const DisabledPage = () => {
 
     // ACTIVE , DISABLED

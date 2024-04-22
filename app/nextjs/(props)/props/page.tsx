@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useState } from 'react';
 import Link from "next/link";
 import {PropsButton} from "@/app/nextjs/(props)/props/components/props-button";
-import {PropsCopybutton} from "@/app/components/props-copybutton";
+import {PropsCopybutton} from "@/app/nextjs/components/props-copybutton";
 const PropsPage = () => {
 
 

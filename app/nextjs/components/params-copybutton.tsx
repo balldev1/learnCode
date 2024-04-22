@@ -5,27 +5,12 @@ export const ParamsCopybutton = () => {
 
     //code
     const codeChildren = `
-    // /app/api/test/route.js
-export async function GET() {
-    return Response.json({
-        message: \`GET method called\`,
-    });
+"use client"
+import { useParams } from 'next/navigation'
 
-}export async function POST() {
-    return Response.json({
-        message: \`POST method called\`,
-    });
-
-}export async function PUT() {
-    return Response.json({
-        message: \`PUT method called\`,
-    });
-
-}export async function DELETE() {
-    return Response.json({
-        message: \`DELETE method called\`,
-    });
-
+export default function Page() {
+    const params = useParams()
+    return <p>Post: {params.id}</p>
 }
     `;
 

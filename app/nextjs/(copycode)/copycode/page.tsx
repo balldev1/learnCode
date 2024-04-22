@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { useState } from 'react';
 import Link from "next/link";
-import {CopycodeCopybutton} from "@/app/components/copycode-copybutton";
+import {CopycodeCopybutton} from "@/app/nextjs/components/copycode-copybutton";
 const CopyCodePage = () => {
 
     return (

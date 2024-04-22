@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { useState } from 'react';
 import Link from "next/link";
-import {LayoutCopybutton} from "@/app/components/layout-copybutton";
+import {LayoutCopybutton} from "@/app/nextjs/components/layout-copybutton";
 const LayoutPage = () => {
 
     return (
